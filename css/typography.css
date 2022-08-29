@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: var(--h1);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--h2);
+  line-height: 1.275;
+}
+
+h3 {
+  font-size: var(--h3);
+  line-height: 1.25;
+}
+
+p {
+  font-size: var(--base-size);
+  line-height: 1.56;
+}

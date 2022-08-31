@@ -24,3 +24,26 @@ p {
   font-size: var(--base-size);
   line-height: 1.56;
 }
+
+/* Mobile */
+@media (min-width: 480px) {
+  :root {
+    --h1: 1.778rem;
+    --base-size: 16px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  :root {
+    --h1: 2.444rem;
+    --base-size: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  :root {
+    --h1: 3.111rem;
+  }
+}

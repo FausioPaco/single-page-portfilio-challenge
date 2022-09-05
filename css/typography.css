@@ -45,5 +45,6 @@ p {
 @media (min-width: 769px) {
   :root {
     --h1: 3.111rem;
+    --base-size: 18px;
   }
 }

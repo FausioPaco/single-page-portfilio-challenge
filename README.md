@@ -46,7 +46,6 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 <!-- ### Continued development
 

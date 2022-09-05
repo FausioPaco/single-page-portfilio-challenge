@@ -15,17 +15,27 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--light-cream);
-  margin: 0 164px;
+}
+
+.wrapper {
   display: grid;
   grid-template-areas:
     'header'
     'main'
     'footer';
   grid-template-rows: auto 1fr auto;
+  margin: 0 164px;
 }
 
 .header {
   grid-area: header;
+  padding: 1rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {

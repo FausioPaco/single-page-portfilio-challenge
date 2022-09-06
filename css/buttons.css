@@ -11,6 +11,7 @@
   transition: background-color 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
   border: none;
   font-weight: bold;
+  font-family: var(--base-font);
 }
 
 .btn__one {

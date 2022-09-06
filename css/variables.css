@@ -4,6 +4,7 @@
   --h1: 3.111rem;
   --h2: 2.222rem;
   --h3: 1.778rem;
+  --base-font: 'Plus Jakarta Sans', sans-serif;
 
   /* Colors */
   --black: #030303;
@@ -15,4 +16,8 @@
   --light-red: #eb7565;
   --cyan: #61c4b7;
   --dark-purple: #552049;
+
+  /* Grid */
+  --gutter: 30px;
+  --columns: 12;
 }

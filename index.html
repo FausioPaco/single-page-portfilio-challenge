@@ -20,12 +20,13 @@
     <link href="css/variables.css" rel="stylesheet" />
     <link href="css/buttons.css" rel="stylesheet" />
     <link href="css/typography.css" rel="stylesheet" />
+    <link href="css/carousel.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header class="header layout__container">
         <nav class="header__nav">
           <a href="#" class="header__nav__logo--link">
             <img
@@ -39,7 +40,7 @@
       </header>
 
       <main role="main" class="main">
-        <section id="hero" class="main__hero">
+        <section id="hero" class="main__hero layout__container">
           <h1>Design solutions made easy</h1>
           <p>
             With over ten years of experience in various design disciplines, I’m
@@ -47,7 +48,7 @@
           </p>
         </section>
 
-        <section id="skills" class="container">
+        <section id="skills" class="layout__container container">
           <div class="skills skills__graphic-design">
             <img
               src="assets/pattern-graphic-design.svg"
@@ -106,7 +107,7 @@
           </div>
         </section>
 
-        <section id="about" class="main__about container">
+        <section id="about" class="layout__container container main__about">
           <div class="about__picture">
             <picture>
               <source srcset="assets/image-amy.webp" type="image/webp" />
@@ -122,6 +123,69 @@
             </p>
             <button class="btn btn__two">Free Consultation</button>
           </div>
+        </section>
+
+        <section id="work" class="main__work">
+          <h2>My Work</h2>
+
+          <section aria-label="carousel" class="carousel__container">
+            <p class="sr-only">
+              Carousel with slide images of my works shown at a time. Use the
+              Previous and Next buttons to navigate.
+            </p>
+
+            <div class="carousel__slides">
+              <!-- Slide 1 -->
+              <div class="slide" role="group" aria-label="slide 1 of 5">
+                <img
+                  src="assets/image-slide-1.jpg"
+                  alt="Work 1"
+                  width="540"
+                  height="360"
+                />
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="slide" role="group" aria-label="slide 2 of 5">
+                <img
+                  src="assets/image-slide-2.jpg"
+                  alt="Work 2"
+                  width="540"
+                  height="360"
+                />
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="slide" role="group" aria-label="slide 3 of 5">
+                <img
+                  src="assets/image-slide-3.jpg"
+                  alt="Work 3"
+                  width="540"
+                  height="360"
+                />
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="slide" role="group" aria-label="slide 4 of 5">
+                <img
+                  src="assets/image-slide-4.jpg"
+                  alt="Work 4"
+                  width="540"
+                  height="360"
+                />
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="slide" role="group" aria-label="slide 5 of 5">
+                <img
+                  src="assets/image-slide-5.jpg"
+                  alt="Work 5"
+                  width="540"
+                  height="360"
+                />
+              </div>
+            </div>
+          </section>
         </section>
       </main>
       <footer></footer>

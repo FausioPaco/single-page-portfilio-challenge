@@ -29,7 +29,7 @@ function nextSlide() {
 }
 
 function goToSlide(nextLeftMostSlideIndex) {
-  slideContainer.style.transform = `translateX(${
+  slideContainer.style.transform = `translateX(-${
     (slideContainer.offsetWidth / 3) * nextLeftMostSlideIndex
   }px)`;
 

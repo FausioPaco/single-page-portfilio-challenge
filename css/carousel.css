@@ -5,9 +5,10 @@
 
 .carousel__slides {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
+  transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .slide {
@@ -21,4 +22,12 @@
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.carousel__buttons {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

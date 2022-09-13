@@ -1,8 +1,6 @@
 .btn {
   display: inline-block;
   font-size: 0.889em;
-  padding: 0.5rem 1.75rem;
-  border-radius: 1.556rem;
   line-height: 1.56;
   user-select: none;
   cursor: pointer;
@@ -32,4 +30,22 @@
 .btn__two:hover {
   background-color: var(--summer-yellow);
   color: white;
+}
+
+.btn__one,
+.btn__two {
+  padding: 0.5rem 1.75rem;
+  border-radius: 1.556rem;
+}
+
+.btn__slide {
+  background-color: var(--black);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 0.4rem;
+}
+
+.btn__slide:hover {
+  background-color: var(--galatic-blue);
 }

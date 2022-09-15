@@ -18,7 +18,7 @@
 
 .slide > img {
   padding: 0.25rem;
-  border-radius: 2.5rem;
+  border-radius: 10px;
   max-width: 100%;
   height: auto;
   display: block;
@@ -30,4 +30,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Smartphone */
+@media (max-width: 480px) {
+  .slide {
+    margin: 0.5rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  .slide {
+    margin: 0.5rem;
+  }
 }

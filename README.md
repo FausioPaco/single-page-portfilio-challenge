@@ -6,13 +6,12 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-    <!-- - [Screenshot](#screenshot) -->
-    <!-- - [Links](#links) -->
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
     <!-- - [What I learned](#what-i-learned) -->
     <!-- - [Continued development](#continued-development) -->
-    <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
 <!-- - [Acknowledgments](#acknowledgments) -->
 
@@ -26,11 +25,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Navigate the slider using either their mouse/trackpad or keyboard
 
-<!-- ### Screenshot
+### Screenshot
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it. -->
+<!--
 
 <!--
 ### Links

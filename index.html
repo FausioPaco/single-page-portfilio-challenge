@@ -27,7 +27,7 @@
   <body>
     <div class="wrapper">
       <header class="header layout__container">
-        <nav class="header__nav">
+        <nav class="header__nav" aria-label="Header">
           <a href="#" class="header__nav__logo--link">
             <img
               class="header__nav__logo"
@@ -39,7 +39,7 @@
         </nav>
       </header>
 
-      <main role="main" class="main">
+      <main class="main">
         <section id="hero" class="main__hero layout__container">
           <h1>Design solutions made easy</h1>
           <p>
@@ -111,7 +111,12 @@
           <div class="about__picture">
             <picture>
               <source srcset="assets/image-amy.webp" type="image/webp" />
-              <img src="assets/image-amy.png" width="445" height="445" />
+              <img
+                src="assets/image-amy.png"
+                width="445"
+                height="445"
+                alt="Amy's Picture"
+              />
             </picture>
           </div>
           <div class="about__description">
@@ -227,7 +232,7 @@
         </section>
       </main>
       <footer class="layout__container footer">
-        <nav class="footer__nav">
+        <nav class="footer__nav" aria-label="Footer">
           <a href="#" class="footer__nav__logo--link">
             <img
               class="footer__nav__logo"
